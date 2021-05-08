@@ -5,6 +5,7 @@ import math
 import os
 import urllib.request
 from enum import Enum
+import random
 
 #Función para descargar imagenes en su carpeta correspondiente
 def downloadSamples(listOfImages, sampleType):
@@ -56,12 +57,16 @@ for currentPage in range(1,lastPageToSearch + 1):
     assert "No images found." not in driver.page_source
     totalSources.extend(imageSources)
 
+#Cambiar la posisición de los sources de manera aleatoria
+print("Aleatorizando imagenes")
+random.shuffle(totalSources)
+
 #Número total de imagenes recolectadas
 totalImagesCollected = len(totalSources)
 
-#Partición 70 15 15
+#Partición 70 20 10
 trainPivot = math.floor(totalImagesCollected * .7)
-testPivot = math.floor(trainPivot + ((totalImagesCollected * .3) / 2))
+testPivot = math.floor(trainPivot + (totalImagesCollected * .2))
 
 #Declaración de conjuntos
 trainSample = totalSources[:trainPivot]
