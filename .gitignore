@@ -1,0 +1,8 @@
+test
+train
+validation
+
+Pipfile
+Pipfile.lock
+
+.ipynb_checkpoints
