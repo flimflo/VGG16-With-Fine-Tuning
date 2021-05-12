@@ -1,4 +1,4 @@
-#Actividad Integradora #3:
+# Actividad Integradora #3:
 
 Clasificador de Animales
 
