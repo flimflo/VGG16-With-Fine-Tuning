@@ -41,6 +41,7 @@ Como ejecutar:
 Primero, ejecute el sript Data_Collection_Script.py en un directorio donde se puedan almacenar las imagenes, para descargar las imagenes. 
 Después, en Jupyter abra el archivo Vgg16_classifier.ipynb y ejecute una por una las celdas para ver el proceso de construcción del clasificador vgg16.
 
-- Nota:
+Nota:
+
 - El conjunto de imagenes usado para entrenar este modelo puede ser encontrado en el siguiente link:
 [Descargar imagenes](https://drive.google.com/drive/folders/1P8oQyOtKx_Lt18WH-dHzTVUn4xBh9F5d?usp=sharing)
