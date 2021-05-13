@@ -45,3 +45,11 @@ Nota:
 
 - El conjunto de imagenes usado para entrenar este modelo puede ser encontrado en el siguiente link:
 [Descargar imagenes](https://drive.google.com/drive/folders/1P8oQyOtKx_Lt18WH-dHzTVUn4xBh9F5d?usp=sharing)
+
+Para ejecutar en Google Colab:
+
+1) descargar los folders 'train', 'test' y 'validation' individualmente como zips.
+2) subir los zips a Google colab
+3) ejecutar los imports en la seccion 'Selección y entrenamiento de modelos'
+4) ejecutar los comandos !unzip en la seccion de 'Recoleccion y procesamiento de datos
+5) ejecutar el resto de las celdas y ver los resultados.
