@@ -53,3 +53,5 @@ Para ejecutar en Google Colab:
 3) ejecutar los imports en la seccion 'Selección y entrenamiento de modelos'
 4) ejecutar los comandos !unzip en la seccion de 'Recoleccion y procesamiento de datos
 5) ejecutar el resto de las celdas y ver los resultados.
+
+[link al colab](https://drive.google.com/file/d/1TvAYvAX2lS2uMC2mujeCabBs94Sa9F38/view?usp=sharing)
