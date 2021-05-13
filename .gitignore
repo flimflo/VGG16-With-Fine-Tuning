@@ -4,6 +4,8 @@ validation
 
 models
 
+.vscode
+
 Pipfile
 Pipfile.lock
 
